@@ -25,6 +25,7 @@ Route::post('come','TodoController@store');
 Route::get('sleep', 'Hello@sleep');
 Route::get('tweets', 'TweetController@show');
 Route::get('easy', 'EasyController@show');
+Route::get('example', 'EasyController@show');
 Route::resource('my','MyController');
 Route::get('session/get','SessionController@accessSessionData');
 Route::get('session/set','SessionController@storeSessionData');
